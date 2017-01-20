@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "23.0.2"
+    compileSdkVersion 19
+    buildToolsVersion "25.0.1"
     defaultConfig {
         applicationId "cn.test"
         minSdkVersion 11
