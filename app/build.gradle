@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
 
+ext.appVersionCode = 1
+ext.appVersionName = "0.9.0"
+ext.appReleaseDir = ""
+
 def loadProperties() {
     def proFile = file("../local.properties")
     Properties p = new Properties()
